@@ -1,4 +1,4 @@
-# **Section 1: Fundamental SQL Concepts**
+# **Fundamental SQL Concepts**
 
 ---
 
