@@ -1,4 +1,4 @@
-# **Section 1: Fundamental SQL Concepts**
+# **Fundamental SQL Concepts**
 
 ---
 
@@ -26,6 +26,8 @@ HAVING COUNT(*) > 5;
 
 ✅ Yes, HAVING works even without GROUP BY to filter aggregated results.
 
+-------------------------------------------------------------------------------------------------
+
 ## **Q2. What is a Primary Key vs Foreign Key?**
 
 - **Primary Key:** Uniquely identifies each row (e.g., `customer_id`)
@@ -35,12 +37,16 @@ HAVING COUNT(*) > 5;
 
 ➡️ They **enforce referential integrity.**
 
+-------------------------------------------------------------------------------------------------
+
 ## **Q3. Difference Between UNION and UNION ALL**
 
 - **UNION:** Removes duplicates
 - **UNION ALL:** Keeps duplicates
 
 ✅ **Understand:** Always prefer UNION ALL if you don’t need deduplication (faster).
+
+-------------------------------------------------------------------------------------------------
 
 ## **Q4. Types of JOINs and When to Use Them**
 
@@ -55,6 +61,8 @@ HAVING COUNT(*) > 5;
 *When do you use EXISTS instead of JOIN?*
 
 ✅ EXISTS is faster for **checking existence** without returning full data.
+
+-------------------------------------------------------------------------------------------------
 
 ## **Q5. NULL Handling: How Do You Deal with NULLs in SQL?**
 
@@ -73,6 +81,8 @@ SELECT COALESCE(phone_number, 'Not Provided') FROM customers;
 
 - NULLIF returns NULL if **two inputs are equal**
 - COALESCE returns the **first non-NULL**
+
+-------------------------------------------------------------------------------------------------
 
 ## **Q6. What is Normalization? Why is it Important?**
 
