@@ -1,12 +1,11 @@
----
-
 # 🚀 Tricky Advanced Level SQL Questions
+---
 
 ### **Q01. What is an Index? Why Do Queries Get Faster?**
 
-* **The Core:** An Index is a **pointer structure** (typically a B-Tree) that lives alongside your data.
-* **The Benefit:** It speeds up row retrieval by allowing the database engine to locate data without performing a **Full Table Scan**.
-* **Analogy:** It’s like the index at the back of a textbook; you find the page number first rather than reading every page.
+**The Core:** An Index is a **pointer structure** (typically a B-Tree) that lives alongside your data.
+**The Benefit:** It speeds up row retrieval by allowing the database engine to locate data without performing a **Full Table Scan**.
+**Analogy:** It’s like the index at the back of a textbook; you find the page number first rather than reading every page.
 
 ---
 
