@@ -3,7 +3,7 @@
 
 ### **Q01. What is an Index? Why Do Queries Get Faster?**
 
-**The Core:** An Index is a **pointer structure** (typically a B-Tree) that lives alongside your data.
+**The Core:** An Index is a **pointer structure** (typically a B-Tree) that lives along side your data.
 **The Benefit:** It speeds up row retrieval by allowing the database engine to locate data without performing a **Full Table Scan**.
 **Analogy:** It’s like the index at the back of a textbook; you find the page number first rather than reading every page.
 
@@ -97,6 +97,6 @@ WHERE to_tsvector('english', content) @@ to_tsquery('data & science');
 
 ```
 
-✅ **Pro Tip:** This approach supports stemming (e.g., searching "run" finds "running") and is significantly faster than pattern matching.
+✅ **Tip:** This approach supports stemming (e.g., searching "run" finds "running") and is significantly faster than pattern matching.
 
 ---
