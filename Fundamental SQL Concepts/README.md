@@ -30,8 +30,8 @@ HAVING COUNT(*) > 5;
 
 ## **Q2. What is a Primary Key vs Foreign Key?**
 
-- **Primary Key:** Uniquely identifies each row (e.g., `customer_id`)
-- **Foreign Key:** Links to another table’s primary key (e.g., `order.customer_id`)
+- **Primary Key:** Uniquely identifies each row (e.g., `user_id`)
+- **Foreign Key:** Links to another table’s primary key (e.g., `order.user_id`)
 
 ✅:** Why do we need Foreign Keys?
 
